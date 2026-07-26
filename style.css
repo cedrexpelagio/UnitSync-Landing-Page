@@ -1,0 +1,25 @@
+:root {
+/* UnitSync Brand Color */
+--primary-color: #373C1E;
+--secondary-color:#000000;
+--teriary-color: #D4AF37;
+--pure-white: #FFFFFF;
+--bg-color: #F8FAF9; 
+
+/* Font Size */
+--hero-title: 48px;
+--h1: 36px;
+--h2: 24px;
+--regular: 16px;
+--small: 14px;
+--navigation: 16px;
+
+/* Font Family: Inter */
+--font-main: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    margin: 48px;
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+}
