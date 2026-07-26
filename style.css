@@ -23,3 +23,29 @@ body {
     font-family: var(--font-main);
     background-color: var(--bg-color);
 }
+
+/* Navigation Bar Section */
+.navigation-bar,
+.navigation-left,
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-left {
+    gap: 70px;
+}
+
+.navigation-links {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: var(--navigation);
+    color: var(--primary-color);
+}
