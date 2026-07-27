@@ -196,7 +196,7 @@ a {
 }
 
 .feature-title {
-     font-size: var(--h2);
+    font-size: var(--h2);
 }
 
 .feature-card {
@@ -226,4 +226,30 @@ a {
     max-width: 304.91px;
     gap: 20px;
     text-align: justify;
+}
+
+/* Call to Action */
+
+.call-to-action-section {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin: 100px 0px 30px 0px;
+}
+
+.call-to-action-section .call-to-action {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px 0px 80px 0px;
+    color: var(--pure-white);
+}
+
+.call-to-action-section .call-to-action .cta-colored {
+color: var(--teriary-color);
+}
+
+.footer-text {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--regular);
 }
