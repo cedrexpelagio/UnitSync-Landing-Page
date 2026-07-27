@@ -1,27 +1,49 @@
 :root {
-/* UnitSync Brand Color */
---primary-color: #373C1E;
---secondary-color:#000000;
---teriary-color: #D4AF37;
---pure-white: #FFFFFF;
---bg-color: #F8FAF9; 
+    /* UnitSync Brand Color */
+    --primary-color: #373C1E;
+    --secondary-color: #000000;
+    --teriary-color: #D4AF37;
+    --pure-white: #FFFFFF;
+    --bg-color: #F8FAF9;
 
-/* Font Size */
---hero-title: 48px;
---h1: 36px;
---h2: 24px;
---regular: 16px;
---small: 14px;
---navigation: 16px;
+    /* Font Size */
+    --hero-title: 48px;
+    --h1: 36px;
+    --h2: 24px;
+    --regular: 16px;
+    --small: 14px;
+    --navigation: 16px;
 
-/* Font Family: Inter */
---font-main: 'Inter', system-ui, -apple-system, sans-serif;
+    /* Font Family: Inter */
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 body {
     margin: 48px;
     font-family: var(--font-main);
     background-color: var(--bg-color);
+}
+
+/* Buttons Variation */
+.btn {
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.btn.default {
+    background-color: var(--teriary-color);
+    color: var(--pure-white);
+}
+
+.btn.armygreen {
+    background-color: var(--primary-color);
+    color: var(--pure-white);
+}
+
+.btn.transparent-armygreen {
+    background-color: var(--pure-white);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 /* Navigation Bar Section */
@@ -44,8 +66,11 @@ body {
     gap: 30px;
 }
 
+.navigation-links a {
+    color: var(--primary-color);
+}
+
 a {
     text-decoration: none;
     font-size: var(--navigation);
-    color: var(--primary-color);
 }
