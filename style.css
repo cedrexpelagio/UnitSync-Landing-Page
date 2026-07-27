@@ -18,6 +18,11 @@
     --font-main: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -124,4 +129,43 @@ a {
     flex-shrink: 2;
     height: 100%;
     max-height: 558px;
+}
+
+/* About Section */
+
+.about-section {
+    background-color: var(--primary-color);
+    padding: 140px 200px 180px 100px;
+    margin-top: -40px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.about-paragraph,
+.about-unitsync {
+    color: var(--pure-white);
+}
+
+.about-unitsync {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--h2);
+    gap: 50px;
+}
+
+.about-paragraphs {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--regular);
+    gap: 20px;
+    text-align: justify;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 432px;
 }
