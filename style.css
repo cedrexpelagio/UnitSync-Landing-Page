@@ -41,8 +41,8 @@ a {
 
 /* Buttons Variation */
 .btn {
-    padding: 4px;
-    border-radius: 6px;
+    padding: 10px 20px;
+    border-radius: 12px;
 }
 
 .btn.default {
