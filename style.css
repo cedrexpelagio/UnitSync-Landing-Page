@@ -87,10 +87,10 @@ a {
 /* Hero Section */
 
 .hero-title {
-   color: var(--primary-color);
-   font-size: var(--hero-title);
-   margin: 0px;
-   font-weight: bold;
+    color: var(--primary-color);
+    font-size: var(--hero-title);
+    margin: 0px;
+    font-weight: bold;
 }
 
 .hero-caption {
@@ -153,8 +153,11 @@ a {
 .about-unitsync {
     display: flex;
     flex-direction: column;
-    font-size: var(--h2);
     gap: 50px;
+}
+
+.about-title {
+    font-size: var(--h1);
 }
 
 .about-paragraphs {
@@ -168,4 +171,59 @@ a {
 .about-image {
     width: 100%;
     max-width: 432px;
+}
+
+/* Feature Section */
+
+.features-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.features-cards {
+    color: var(--pure-white);
+    display: flex;
+    padding: 0px 40px 0px 40px;
+    justify-content: space-between;
+}
+
+.features-title {
+    color: var(--secondary-color);
+    font-size: var(--h1);
+    text-align: center;
+}
+
+.feature-title {
+     font-size: var(--h2);
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+}
+
+.icon-title {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 205px;
+}
+
+.icon-title img {
+    width: 32px;
+}
+
+.img-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 304.91px;
+    gap: 20px;
+    text-align: justify;
 }
