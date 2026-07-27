@@ -2,7 +2,7 @@
     /* UnitSync Brand Color */
     --primary-color: #373C1E;
     --secondary-color: #000000;
-    --teriary-color: #D4AF37;
+    --tertiary-color: #D4AF37;
     --pure-white: #FFFFFF;
     --bg-color: #F8FAF9;
 
@@ -46,7 +46,7 @@ a {
 }
 
 .btn.default {
-    background-color: var(--teriary-color);
+    background-color: var(--tertiary-color);
     color: var(--pure-white);
 }
 
@@ -247,7 +247,7 @@ a {
 }
 
 .call-to-action-section .call-to-action .cta-colored {
-color: var(--teriary-color);
+color: var(--tertiary-color);
 }
 
 .footer-text {
