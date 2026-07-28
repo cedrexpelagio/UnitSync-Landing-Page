@@ -109,16 +109,21 @@ a {
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-top: 20px;
+
+    background-image: url('./images/hero-image.png');
+    background-position: right center; 
+    background-size: contain; 
+    background-repeat: no-repeat;
 }
 
 .hero-content {
-    flex-shrink: 1;
+
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 100%;
-    max-width: 400px;
+    width: 400px;
+    height: 550px;
     gap: 5px;
 }
 
@@ -130,12 +135,6 @@ a {
     display: flex;
     padding-top: 25px;
     gap: 20px;
-}
-
-.hero-image {
-    flex-shrink: 2;
-    height: 100%;
-    max-height: 558px;
 }
 
 /* About Section */
@@ -248,7 +247,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 80px;
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0px;
     color: var(--pure-white);
 }
 
@@ -279,13 +278,7 @@ a {
 
     .hero-section {
         margin-top: 30px;
-        flex-direction: column-reverse;
     }
-    
-    .hero-image {
-        max-width: 504px;
-        opacity: 0.25;
-   }
 
     .hero-content {
         justify-content: center;
@@ -298,15 +291,14 @@ a {
         color: var(--secondary-color);
     }
 
-    
     /* About Section */
 
-      .about-image {
+    .about-image {
         display: none;
     }
-    
+
     .about-section {
-         padding: 30px;
+        padding: 30px;
     }
 
     .about-unitsync {
@@ -318,7 +310,7 @@ a {
     }
 
     /* Feature Section*/
-    
+
     .features-cards {
         flex-direction: column;
         align-items: center;
@@ -326,9 +318,9 @@ a {
     }
 
     /* Call to Action Section */
-    
+
     .cta-message {
-        text-align:center;
+        text-align: center;
         padding: 0px 50px;
     }
 
