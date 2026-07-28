@@ -43,6 +43,7 @@ a {
 .btn {
     padding: 10px 20px;
     border-radius: 12px;
+    display: inline-block;
 }
 
 .btn.default {
@@ -62,6 +63,11 @@ a {
 }
 
 /* Navigation Bar Section */
+.logo {
+    width: 100%;
+    max-width: 219px;
+}
+
 .navigation-bar,
 .navigation-left,
 .navigation-links {
@@ -247,11 +253,26 @@ a {
 }
 
 .call-to-action-section .call-to-action .cta-colored {
-color: var(--tertiary-color);
+    color: var(--tertiary-color);
 }
 
 .footer-text {
     text-align: center;
     color: var(--primary-color);
     font-size: var(--regular);
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+
+    /* Navigatin Bar */
+    .logo {
+        max-width: 150px;
+    }
+
+    .navigation-left,
+    .navigation-links {
+        gap: 10px;
+    }
+
 }
