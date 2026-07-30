@@ -33,6 +33,10 @@ body {
     background-color: var(--bg-color);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Anchor Tags */
 a {
     text-decoration: none;
@@ -44,6 +48,21 @@ a {
     padding: 10px 20px;
     border-radius: 12px;
     display: inline-block;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect Rule */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: none;
 }
 
 .btn.default {
@@ -60,6 +79,13 @@ a {
     background-color: var(--pure-white);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+
+/* Hover Effect */
+.btn.transparent-armygreen:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    /* Swaps text to white when filled */
 }
 
 /* Navigation Bar Section */
@@ -85,6 +111,24 @@ a {
     padding: 0px;
     list-style: none;
     gap: 30px;
+}
+
+.navigation-links a {
+    transition: all 0.3s ease;
+}
+
+.navigation-links a:hover {
+    background-color: var(--primary-color);
+    padding: 5px 3px;
+    color: var(--pure-white);
+    border-radius: 5px;
+}
+
+.navigation-links a:active {
+    background-color: var(--pure-white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    box-sizing: border-box;
 }
 
 .navigation-links a {
