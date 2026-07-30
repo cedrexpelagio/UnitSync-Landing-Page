@@ -85,7 +85,6 @@ a {
 .btn.transparent-armygreen:hover {
     background-color: var(--primary-color);
     color: #ffffff;
-    /* Swaps text to white when filled */
 }
 
 /* Navigation Bar Section */
@@ -198,7 +197,7 @@ a {
     gap: 120px;
 }
 
-.about-paragraph,
+.about-paragraphs,
 .about-unitsync {
     color: var(--pure-white);
 }
@@ -259,6 +258,12 @@ a {
     padding: 20px;
     border-radius: 6px;
     background-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+transform: translateY(-10px);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .icon-title {
